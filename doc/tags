@@ -1,4 +1,4 @@
-nvim-builder-a-neovim-nvim-builder	nvim-builder.txt	/*nvim-builder-a-neovim-nvim-builder*
+nvim-builder-a-neovim-plugin-template	nvim-builder.txt	/*nvim-builder-a-neovim-plugin-template*
 nvim-builder-commands	nvim-builder.txt	/*nvim-builder-commands*
 nvim-builder-configuration	nvim-builder.txt	/*nvim-builder-configuration*
 nvim-builder-configuration-lualine	nvim-builder.txt	/*nvim-builder-configuration-lualine*

@@ -1,24 +1,24 @@
-*nvim-builder.txt*     For Neovim >= 0.8.0     Last change: 2024 October 27
+*nvim-builder.txt*       For Neovim >= 0.8.0      Last change: 2024 October 27
 
 ==============================================================================
-Table of Contents                          *nvim-builder-table-of-contents*
+Table of Contents                             *nvim-builder-table-of-contents*
 
-1. A Neovim Plugin Template         |nvim-builder-a-neovim-nvim-builder|
-2. Features                                         |nvim-builder-features|
-3. Using This Template                   |nvim-builder-using-this-template|
-4. Installation                                 |nvim-builder-installation|
-5. Configuration                               |nvim-builder-configuration|
-  - Lualine                            |nvim-builder-configuration-lualine|
-  - Telescope                        |nvim-builder-configuration-telescope|
-6. Commands                                         |nvim-builder-commands|
-7. Tests                                               |nvim-builder-tests|
-  - Initialization                      |nvim-builder-tests-initialization|
-  - Running                                    |nvim-builder-tests-running|
-8. Tracking Updates                         |nvim-builder-tracking-updates|
-9. Other Plugins                               |nvim-builder-other-plugins|
+1. A Neovim Plugin Template            |nvim-builder-a-neovim-plugin-template|
+2. Features                                            |nvim-builder-features|
+3. Using This Template                      |nvim-builder-using-this-template|
+4. Installation                                    |nvim-builder-installation|
+5. Configuration                                  |nvim-builder-configuration|
+  - Lualine                               |nvim-builder-configuration-lualine|
+  - Telescope                           |nvim-builder-configuration-telescope|
+6. Commands                                            |nvim-builder-commands|
+7. Tests                                                  |nvim-builder-tests|
+  - Initialization                         |nvim-builder-tests-initialization|
+  - Running                                       |nvim-builder-tests-running|
+8. Tracking Updates                            |nvim-builder-tracking-updates|
+9. Other Plugins                                  |nvim-builder-other-plugins|
 
 ==============================================================================
-1. A Neovim Plugin Template         *nvim-builder-a-neovim-nvim-builder*
+1. A Neovim Plugin Template            *nvim-builder-a-neovim-plugin-template*
 
   --------------------------------------------------------------------------------
             
@@ -34,7 +34,7 @@ A template repository used to create Neovim plugins.
 
 
 ==============================================================================
-2. Features                                         *nvim-builder-features*
+2. Features                                            *nvim-builder-features*
 
 - Follows nvim-best-practices <https://github.com/nvim-neorocks/nvim-best-practices>
 - Fast start-up (~1 ms)
@@ -72,14 +72,14 @@ A template repository used to create Neovim plugins.
 
 
 ==============================================================================
-3. Using This Template                   *nvim-builder-using-this-template*
+3. Using This Template                      *nvim-builder-using-this-template*
 
 1. Follow the Wiki instructions <https://github.com/rootiest/nvim-builder.nvim/wiki/Using-This-Template>
 2. Once you’re done, remove this section (the rest of this README.md file should be kept / customized to your needs)
 
 
 ==============================================================================
-4. Installation                                 *nvim-builder-installation*
+4. Installation                                    *nvim-builder-installation*
 
 - lazy.nvim <https://github.com/folke/lazy.nvim>
 
@@ -93,7 +93,7 @@ A template repository used to create Neovim plugins.
 
 
 ==============================================================================
-5. Configuration                               *nvim-builder-configuration*
+5. Configuration                                  *nvim-builder-configuration*
 
 (These are default values)
 
@@ -153,7 +153,7 @@ A template repository used to create Neovim plugins.
 <
 
 
-LUALINE                                *nvim-builder-configuration-lualine*
+LUALINE                                   *nvim-builder-configuration-lualine*
 
 
   Note: You can customize lualine colors here or using
@@ -179,7 +179,7 @@ lualine.nvim <https://github.com/nvim-lualine/lualine.nvim>
 <
 
 
-TELESCOPE                            *nvim-builder-configuration-telescope*
+TELESCOPE                               *nvim-builder-configuration-telescope*
 
 
   Note: You can customize telescope colors here or using
@@ -220,7 +220,7 @@ them, here’s how:
 
 
 ==============================================================================
-6. Commands                                         *nvim-builder-commands*
+6. Commands                                            *nvim-builder-commands*
 
 Here are some example commands:
 
@@ -240,10 +240,10 @@ Here are some example commands:
 
 
 ==============================================================================
-7. Tests                                               *nvim-builder-tests*
+7. Tests                                                  *nvim-builder-tests*
 
 
-INITIALIZATION                          *nvim-builder-tests-initialization*
+INITIALIZATION                             *nvim-builder-tests-initialization*
 
 Run this line once before calling any `busted` command
 
@@ -252,7 +252,7 @@ Run this line once before calling any `busted` command
 <
 
 
-RUNNING                                        *nvim-builder-tests-running*
+RUNNING                                           *nvim-builder-tests-running*
 
 Run all tests
 
@@ -272,7 +272,7 @@ Run test based on tags
 
 
 ==============================================================================
-8. Tracking Updates                         *nvim-builder-tracking-updates*
+8. Tracking Updates                            *nvim-builder-tracking-updates*
 
 See doc/news.txt <doc/news.txt> for updates.
 
@@ -284,7 +284,7 @@ You can watch this plugin for changes by adding this URL to your RSS feed:
 
 
 ==============================================================================
-9. Other Plugins                               *nvim-builder-other-plugins*
+9. Other Plugins                                  *nvim-builder-other-plugins*
 
 This template is full of various features. But if your plugin is only meant to
 be a simple plugin and you don’t want the bells and whistles that this

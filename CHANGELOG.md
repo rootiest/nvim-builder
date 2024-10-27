@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0 (2024-10-27)
+
+
+### Bug Fixes
+
+* rename all instances of the template name to the plugin name ([6297986](https://github.com/rootiest/nvim-builder.nvim/commit/629798694da346d48b567e3281396d00009d97d3))
+* update URLs to use correct case for repository ([ede8008](https://github.com/rootiest/nvim-builder.nvim/commit/ede8008cf7163f90f97c03b9d6afd091e28b3f1b))
+
 ## [1.3.1](https://github.com/rootiest/nvim-builder.nvim/compare/v1.3.0...v1.3.1) (2024-10-26)
 
 

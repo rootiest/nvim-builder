@@ -2,7 +2,7 @@ rockspec_format = "3.0"
 package = "nvim-builder"
 version = "scm-1"
 
-local user = "Rootiest"
+local user = "rootiest"
 
 description = {
     homepage = "https://github.com/" .. user .. "/" .. package,

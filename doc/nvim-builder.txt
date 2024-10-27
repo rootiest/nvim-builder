@@ -38,16 +38,16 @@ A template repository used to create Neovim plugins.
 
 - Follows nvim-best-practices <https://github.com/nvim-neorocks/nvim-best-practices>
 - Fast start-up (~1 ms)
-- Auto-release to luarocks <https://luarocks.org> & GitHub <https://github.com/Rootiest/nvim-builder.nvim/releases>
+- Auto-release to luarocks <https://luarocks.org> & GitHub <https://github.com/rootiest/nvim-builder.nvim/releases>
 - Automated user documentation (using panvimdoc <https://github.com/kdheepak/panvimdoc>)
 - Automated API documentation (using mini.doc <https://github.com/echasnovski/mini.doc>)
 - Vimtags generation
 - Built-in Vim commands
 - A high quality command mode parser
 - Auto-completes your commands at any cursor position
-- No external dependencies <https://github.com/Rootiest/nvim-builder.nvim/wiki/External-Dependencies-Disclaimer>
+- No external dependencies <https://github.com/rootiest/nvim-builder.nvim/wiki/External-Dependencies-Disclaimer>
 - LuaCATS <https://luals.github.io/wiki/annotations/>annotations and type-hints, everywhere
-- RSS feed support <https://github.com/Rootiest/nvim-builder.nvim/commits/main/doc/news.txt.atom>
+- RSS feed support <https://github.com/rootiest/nvim-builder.nvim/commits/main/doc/news.txt.atom>
 - Built-in logging to stdout / files
 - Unittests use the full power of native busted <https://github.com/lunarmodules/busted>
 - Automated testing matrix supports 6 Neovim/OS combinations
@@ -64,7 +64,7 @@ A template repository used to create Neovim plugins.
     - llscheck <https://github.com/jeffzi/llscheck> - Checks for Lua type mismatches
     - luacheck <https://github.com/mpeterv/luacheck> - Checks for Lua code issues
     - luarocks <https://luarocks.org> auto-release (LUAROCKS_API_KEY secret <https://github.com/nvim-neorocks/sample-luarocks-plugin?tab=readme-ov-file#publishing-to-luarocks> configuration required)
-    - GitHub <https://github.com/Rootiest/nvim-builder.nvim/releases> auto-release (PERSONAL_ACCESS_TOKEN secret <https://github.com/nvim-neorocks/sample-luarocks-plugin?tab=readme-ov-file#installing-release-please-recommended> configuration required)
+    - GitHub <https://github.com/rootiest/nvim-builder.nvim/releases> auto-release (PERSONAL_ACCESS_TOKEN secret <https://github.com/nvim-neorocks/sample-luarocks-plugin?tab=readme-ov-file#installing-release-please-recommended> configuration required)
     - mini.doc <https://github.com/echasnovski/mini.doc> - API documentation auto-generator
     - panvimdoc <https://github.com/kdheepak/panvimdoc> - User documentation auto-generator
     - urlchecker <https://github.com/urlstechie/urlchecker-action> - Checks for broken URL links
@@ -74,7 +74,7 @@ A template repository used to create Neovim plugins.
 ==============================================================================
 3. Using This Template                   *nvim-builder-using-this-template*
 
-1. Follow the Wiki instructions <https://github.com/Rootiest/nvim-builder.nvim/wiki/Using-This-Template>
+1. Follow the Wiki instructions <https://github.com/rootiest/nvim-builder.nvim/wiki/Using-This-Template>
 2. Once you’re done, remove this section (the rest of this README.md file should be kept / customized to your needs)
 
 
@@ -85,7 +85,7 @@ A template repository used to create Neovim plugins.
 
 >lua
     {
-        "Rootiest/nvim-builder.nvim",
+        "rootiest/nvim-builder.nvim",
         -- TODO: (you) - Make sure your first release matches v1.0.0 so it auto-releases!
         version = "v1.*",
     }
@@ -101,7 +101,7 @@ A template repository used to create Neovim plugins.
 
 >lua
     {
-        "Rootiest/nvim-builder.nvim",
+        "rootiest/nvim-builder.nvim",
         config = function()
             vim.g.nvim_builder_configuration = {
                 cmdparse = {
@@ -195,7 +195,7 @@ telescope.nvim <https://github.com/nvim-telescope/telescope.nvim>
             require("telescope").load_extension("nvim_builder")
         end,
         dependencies = {
-            "Rootiest/nvim-builder.nvim",
+            "rootiest/nvim-builder.nvim",
             "nvim-lua/plenary.nvim",
         },
         version = "0.1.*",
@@ -279,7 +279,7 @@ See doc/news.txt <doc/news.txt> for updates.
 You can watch this plugin for changes by adding this URL to your RSS feed:
 
 >
-    https://github.com/Rootiest/nvim-builder.nvim/commits/main/doc/news.txt.atom
+    https://github.com/rootiest/nvim-builder.nvim/commits/main/doc/news.txt.atom
 <
 
 

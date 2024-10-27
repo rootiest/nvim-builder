@@ -26,10 +26,10 @@ end
 
 vim.opt.rtp:append(".")
 
-vim.cmd("runtime plugin/plugin_template.lua")
+vim.cmd("runtime plugin/nvim_builder.lua")
 
 vim.cmd("runtime plugin/plenary.vim")
 
 require("lualine").setup()
 
-require("plugin_template._core.configuration").initialize_data_if_needed()
+require("nvim_builder._core.configuration").initialize_data_if_needed()
